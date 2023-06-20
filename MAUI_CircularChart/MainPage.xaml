@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             xmlns:local="clr-namespace:MAUI_CircularChart"
+             x:Class="MAUI_CircularChart.MainPage">
+    
+    <control:SfCircularChart Title="Percentage of Loan Closure">
+        <control:SfCircularChart.Series>
+
+            <control:RadialBarSeries ItemsSource="{Binding Products}" 
+                                     XBindingPath="Name"
+                                     YBindingPath="Value" 
+                                     Radius="1"
+                                     InnerRadius="0.2"
+                                     Stroke="Brown"
+                                     StrokeWidth="4"
+                                     MaximumValue="100"
+                                     GapRatio="0.4"
+                                     CapStyle="BothCurve"
+                                     PaletteBrushes="{Binding CustomPaletteBrushes}">
+                
+
+                <control:RadialBarSeries.CenterView>
+                    <StackLayout WidthRequest="{Binding CenterHoleSize}"
+                                 HeightRequest="{Binding CenterHoleSize}">
+
+                        <Image Source="person.png"/>
+
+                    </StackLayout>
+                </control:RadialBarSeries.CenterView>
+
+               
+            </control:RadialBarSeries>
+            
+        </control:SfCircularChart.Series>
+
+        <control:SfCircularChart.Legend>
+            <control:ChartLegend  Placement="Top" />
+        </control:SfCircularChart.Legend>
+
+        <control:SfCircularChart.BindingContext>
+            <local:ViewModel/>
+        </control:SfCircularChart.BindingContext>
+
+    </control:SfCircularChart>
+
+</ContentPage>
