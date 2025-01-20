@@ -1,30 +1,26 @@
 # Customize RadialBar Chart in .NET MAUI CircularCharts
 
-This repository contains a sample project demonstrating how to customize a RadialBar Chart in .NET MAUI CircularCharts.
-
-The RadialBar Chart in .NET MAUI CircularCharts offers extensive customization options to tailor its appearance to your specific needs.
+The [Radial Bar Chart](https://help.syncfusion.com/maui/circular-charts/radialbarchart) in .NET MAUI CircularCharts offers extensive customization options to tailor its appearance to your specific needs.
 
 ## Customization
 
-This sample demonstrates how to customize a RadialBar Chart using various customization options as follows.
+[Radius](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.CircularSeries.html#Syncfusion_Maui_Charts_CircularSeries_Radius): You can use the radius property to change the radial bar chart size. The default value of the radius is `0.8`.
 
-**Radius:** Adjusts the overall size of the RadialBar chart.
+[InnerRadius](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_InnerRadius): The InnerRadius property of radial bar series is used to define the inner circle. The default value of this property is `0.4`.
 
-**InnerRadius:** Defines the hollow center of the RadialBar chart.
+[Stroke](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.CircularSeries.html#Syncfusion_Maui_Charts_CircularSeries_Stroke): To customize the outer layer of the chart segments.
 
-**Stroke:** Sets the outline color of the RadialBar.
+[StrokeWidth](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.CircularSeries.html#Syncfusion_Maui_Charts_CircularSeries_StrokeWidth): To customize the width of the stroke in chart segments.
 
-**StrokeWidth:** Specifies the thickness of the RadialBar's outline.
+[MaximumValue](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_MaximumValue): To represent the span of the segment-filled area in the radial bar track. The default value of this property is `double.NaN`.
 
-**MaximumValue:** Determines the maximum value represented by the RadialBar.
+[GapRatio](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_GapRatio): To customize the spacing between each chart segments.
 
-**GapRatio:** Controls the spacing between each bar in the RadialBar chart.
+[CapStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_CapStyle): The CapStyle property of the radial bar series is used to specify the shape of the start and end points of the circular segment. The default value of this property is `Both.Flat`.
 
-**CapStyle:** Customizes the ends of the RadialBar.
+[PaletteBrushes](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartSeries.html#Syncfusion_Maui_Charts_ChartSeries_PaletteBrushes): Applies custom colors to the RadialBar chart.
 
-**PaletteBrushes:** Applies custom colors to the RadialBar chart.
-
-**Center View:** Adds custom content, like an image, inside the center of the RadialBar chart.
+[Center View](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_CenterView): Adds custom content, like an image, inside the center of the RadialBar chart.
 
 ## Troubleshooting
 ### Path too long exception
