@@ -1,6 +1,6 @@
 # Customize RadialBar Chart in .NET MAUI CircularCharts
 
-The [Radial Bar Chart](https://help.syncfusion.com/maui/circular-charts/radialbarchart) in .NET MAUI CircularCharts offers extensive customization options to tailor its appearance to your specific needs.
+The [Radial Bar Chart](https://help.syncfusion.com/maui/circular-charts/radialbarchart) in .NET MAUI offers extensive customization options to tailor its appearance to your specific needs. This repository showcases a sample project for personalizing RadialBar Chart within .NET MAUI [SfCircularChart](https://help.syncfusion.com/maui/circular-charts/getting-started).
 
 ## Customization
 
