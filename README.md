@@ -16,7 +16,7 @@ The [Radial Bar Chart](https://help.syncfusion.com/maui/circular-charts/radialba
 
 [GapRatio](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_GapRatio): To customize the spacing between each chart segments.
 
-[CapStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_CapStyle): The CapStyle property of the radial bar series is used to specify the shape of the start and end points of the circular segment. The default value of this property is `Both.Flat`.
+[CapStyle](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.RadialBarSeries.html#Syncfusion_Maui_Charts_RadialBarSeries_CapStyle): The CapStyle property of the radial bar series is used to specify the shape of the start and end points of the circular segment. The default value of this property is `BothFlat`.
 
 [PaletteBrushes](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Charts.ChartSeries.html#Syncfusion_Maui_Charts_ChartSeries_PaletteBrushes): Applies custom colors to the RadialBar chart.
 
