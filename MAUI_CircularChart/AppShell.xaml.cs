@@ -1,9 +1,10 @@
-﻿namespace MAUI_CircularChart;
-
-public partial class AppShell : Shell
+﻿namespace MAUI_CircularChart
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

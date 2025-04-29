@@ -1,11 +1,15 @@
-﻿namespace MAUI_CircularChart;
-
-public partial class App : Application
+﻿namespace MAUI_CircularChart
 {
-	public App()
-	{
-		InitializeComponent();
-        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MDAxQDMyMzEyZTMxMmUzMjM0RlRxZ0NURG8wT3NPRkNhbDQ1RE1aRERTWlVqTzFZOXZISGNUWnBDK2J4VT0=");
-        MainPage = new AppShell();
-	}
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+        }
+
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new MainPage());
+        }
+    }
 }
